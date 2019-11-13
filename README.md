@@ -1,13 +1,13 @@
-# Indohat
-![](./images/Screenshoot.png)
+# Screenshot
+![](./images/Screenshot.png)
 # Usage
 ```
 pkg update && pkg upgrade
 apt-get install git
-git clone https://github.com/thesixtynine/Indohat
-cd Indohat
+git clone https://github.com/thesixtynine/Socialfish
+cd Socialfish
 ls
-bash indohat.sh
+bash socialfish.sh
 ```
 # Paypal:
 https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=CLKRT5QXXFJY4&source=url
