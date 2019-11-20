@@ -3,7 +3,8 @@
 </a></p>
 <h1 align="center">Socialfish</h1>
 
-[![Open Source Helpers](https://www.codetriage.com/thedarksec/Socialfish/badges/users.svg)](https://www.codetriage.com/thedarksec/Socialfish)
+
+[![Open Source Helpers](https://www.codetriage.com/undeadsec/socialfish/badges/users.svg)](https://www.codetriage.com/undeadsec/socialfish)
 
 # Usage:
 ```
