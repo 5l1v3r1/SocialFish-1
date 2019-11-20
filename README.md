@@ -1,7 +1,9 @@
 <p align="center">
   <img src="https://raw.githubusercontent.com/UndeadSec/SocialFishMobile/master/content/logo.png" width="200"/>
 </a></p>
-<h1 align="center">SocialFish</h1>
+<h1 align="center">Socialfish</h1>
+
+[![Open Source Helpers](https://www.codetriage.com/thedarksec/Socialfish/badges/users.svg)](https://www.codetriage.com/thedarksec/Socialfish)
 
 # Usage:
 ```
