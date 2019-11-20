@@ -3,9 +3,6 @@
 </a></p>
 <h1 align="center">SocialFish</h1>
 
-
-# Screenshot:
-![](./images/Screenshot.png)
 # Usage:
 ```
 pkg update && pkg upgrade
