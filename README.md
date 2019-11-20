@@ -1,9 +1,5 @@
-<p align="center">
-  <img src="https://raw.githubusercontent.com/UndeadSec/SocialFishMobile/master/content/logo.png" width="200"/>
-</a></p>
-<h1 align="center">Socialfish</h1>
-
-This project adheres to No Code of Conduct. We are all adults. We accept anyone's contributions. Nothing else matters.
+# Screenshot:
+![](./images/Screenshot.png)
 
 # Usage:
 ```
@@ -15,8 +11,6 @@ cd Socialfish
 ls
 bash socialfish.sh
 ```
-
-![](./images/Screenshot.png)
 
 # Paypal:
 https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=CLKRT5QXXFJY4&source=url
