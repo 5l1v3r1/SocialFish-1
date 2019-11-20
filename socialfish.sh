@@ -1,7 +1,7 @@
 #!/usr/bin/bash
 # Modern Phising The Social Phish
-# Mod by The Sixty Nine
-# Github: github.com/thesixtynine/Socialfish
+# Coded by Senja
+# Github: github.com/thedarksec/Socialfish
 
 checkroot() {
 
@@ -67,8 +67,8 @@ printf "\n"
 template() {
 
 printf "\e[0m[\e[1;94m#\e[0m] \e[0mModern Phising Social Phish\n\e[0m"
-printf "\e[0m[\e[1;93m*\e[0m] \e[0mMod by The Sixty Nine\n\e[0"
-printf "\e[0m[\e[1;96m&\e[0m] \e[0mMy Github: @thesixtynine\n\e[0m"
+printf "\e[0m[\e[1;93m*\e[0m] \e[0mCoded by Senja\n\e[0"
+printf "\e[0m[\e[1;96m&\e[0m] \e[0mMy Github: @thedarksec\n\e[0m"
 sleep 1
 
 }
