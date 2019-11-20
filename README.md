@@ -2,9 +2,7 @@
   <img src="https://raw.githubusercontent.com/UndeadSec/SocialFishMobile/master/content/logo.png" width="200"/>
 </a></p>
 <h1 align="center">Socialfish</h1>
-<head bgcolor=black text=white>
-		<title>This project adheres to No Code of Conduct. We are all adults. We accept anyone's contributions. Nothing else matters.</title>
-	</head>
+####This project adheres to No Code of Conduct. We are all adults. We accept anyone's contributions. Nothing else matters.
 
 # Usage:
 ```
