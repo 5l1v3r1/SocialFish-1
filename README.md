@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://github.com/Socialfish/Anonymous/blob/master/Logo.png" width="200"/>
+  <img src="https://github.com/stepbystepexe/Socialfish/blob/master/Logo.png" width="200"/>
 </a></p>
 <h1 align="center">Social Fish</h1>
 
