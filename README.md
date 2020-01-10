@@ -16,7 +16,7 @@ bash socialfish.sh
 ```
 #### Screenshot:
 <p align="center">
-  <img src="https://github.com/stepbystepexe/Socialfish/blob/master/Screenshot.png">
+  <img src="https://github.com/stepbystepexe/Socialfish/blob/master/Screenshoot.png">
 </a></p>
 
 # Paypal:
