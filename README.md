@@ -3,13 +3,9 @@
 </a></p>
 <h1 align="center">Social Fish</h1>
 
-#### Feature:
+#### Cara Menginstall:
 ```
-serveo.net
-```
-#### Usage:
-```
-git clone https://github.com/stepbystepexe/Socialfish
+git clone https://github.com/stepbystepexe/SocialFish
 cd Socialfish
 ls
 bash socialfish.sh
