@@ -3,6 +3,30 @@
 </a></p>
 <h1 align="center">Social Fish</h1>
 
+#### Informasi:
+```
+Nama        : SocialFish
+Versi       : 4.3 (Update: 10 Agustus 2020, 3:30 AM)
+Tanggal     : 28 Februari 2019
+Mod         : Nedi Senja
+Tujuan      : Mencuri akun menggunakan metode
+              Modern Phising SocialFish
+Terimakasih : Allah SWT.
+              FR13NDS, & seluruh
+              manusia seplanet bumi
+NB          : Manusia gax ada yang sempurna
+              sama kaya yang mod tool ini.
+              Silahkan laporkan kritik atau saran
+              Ke - Email: d_q16x@outlook.co.id
+                 - WhatsApp: +62 8577-5433-901
+
+[ Gunakan tool ini dengan bijak ]
+```
+
+#### Daftar Fitur:
++ serveo.net
++ ngrok
+
 #### Cara Menginstall:
 ```
 git clone https://github.com/stepbystepexe/SocialFish
