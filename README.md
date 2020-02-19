@@ -10,7 +10,7 @@ Versi       : 4.3 (Update: 10 Agustus 2020, 3:30 AM)
 Tanggal     : 28 Februari 2019
 Mod         : Nedi Senja
 Tujuan      : Mencuri akun menggunakan metode
-              Modern Phising SocialFish
+              Modern Phising SocialFish.
 Terimakasih : Allah SWT.
               FR13NDS, & seluruh
               manusia seplanet bumi
