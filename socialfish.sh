@@ -1,4 +1,4 @@
-#!/usr/bin/bash
+#!/bin/bash
 # SocialFish
 # Mod by Nedi Senja
 # Github: https://github.com/stepbystepexe/Socialfish
