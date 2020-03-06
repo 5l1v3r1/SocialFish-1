@@ -30,7 +30,7 @@ NB          : Manusia gax ada yang sempurna
 #### Cara Menginstall:
 ```
 git clone https://github.com/stepbystepexe/SocialFish
-cd Socialfish
+cd SocialFish
 ls
 bash socialfish.sh
 ```
