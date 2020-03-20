@@ -1,8 +1,7 @@
-<p align="center">
-  <img src="https://github.com/stepbystepexe/Socialfish/blob/master/Logo.png" width="200"/>
-</a></p>
-<h1 align="center">Social Fish</h1>
-
+# SocialFish:
+Phising adalah suatu metode untuk melakukan penipuan dengan mengelabui target dengan maksud untuk mencuri akun target. Phising bisa dikatakan mencuri informasi penting dengan mengambil alih akun korban untuk maksud tertentu.
+#### Screenshot:
+![](./Skrinsut.png)
 #### Informasi:
 ```
 Nama        : SocialFish
@@ -22,10 +21,9 @@ NB          : Manusia gax ada yang sempurna
 
 [ Gunakan tool ini dengan bijak ]
 ```
-
 #### Daftar Fitur:
 + serveo.net
-+ ngrok
++ ngrok.io
 
 #### Cara Menginstall:
 ```
@@ -34,12 +32,11 @@ cd SocialFish
 ls
 bash socialfish.sh
 ```
-#### Screenshot:
-<p align="center">
-  <img src="https://github.com/stepbystepexe/Socialfish/blob/master/Skrinsut.png">
-</a></p>
-
+#### Kontak:
++ Email d_q16x@outlook.co.id
++ WhatsApp https://tinyurl.com/wel4alo
 #### Paypal:
-https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=CLKRT5QXXFJY4&source=url
++ Onclick https://bit.ly/3dcEQcN
 #### LiberaPay:
 <noscript><a href="https://liberapay.com/stepbystep/donate"><img alt="Donate using Liberapay" src="https://liberapay.com/assets/widgets/donate.svg"></a></noscript>
+>**Created by Nedi Senja**
