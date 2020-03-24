@@ -24,7 +24,6 @@ NB          : Manusia gax ada yang sempurna
 #### Daftar Fitur:
 + serveo.net
 + ngrok.io
-
 #### Cara Menginstall:
 ```
 git clone https://github.com/stepbystepexe/SocialFish
