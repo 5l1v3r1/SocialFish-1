@@ -1,11 +1,52 @@
-# SocialFish:
-**```Phising```** adalah suatu metode untuk melakukan penipuan dengan mengelabui target dengan maksud untuk mencuri akun target. Phising bisa dikatakan mencuri informasi penting dengan mengambil alih akun korban untuk maksud tertentu.
-#### Screenshot:
-![](./Skrinsut.png)
-#### Informasi:
-```
+<h1 align="center">SocialFish</h1>
+<h5 align="center">Phising adalah suatu metode untuk melakukan penipuan dengan mengelabui target dengan maksud untuk mencuri akun target. Phising bisa dikatakan mencuri informasi penting dengan mengambil alih akun korban untuk maksud tertentu.</h5>
+
+<p align="center">
+  <a href="https://www.gnu.org/software/bash/">
+    <img src="https://img.shields.io/badge/Language-Shell-success.svg">
+  </a>
+  <a href="https://github.com/stepbystepexe/SocialFish/blob/master/LICENSE">
+    <img src="https://img.shields.io/badge/License-GPL%203-red.svg">
+  </a>
+  <a href="https://github.com/stepbystepexe/SocialFish/releases">
+    <img src="https://img.shields.io/badge/Release-1.1-blue.svg">
+  </a>
+  <a href="https://github.com/stepbystepexe/SocialFish/pulls">
+    <img src="https://img.shields.io/badge/Pull%20Request-0-important.svg">
+  </a>
+  <a href="https://github.com/stepbystepexe/SocialFish/projects">
+    <img src="https://img.shields.io/badge/Projects-None-blueviolet.svg">
+  </a>
+  <a href="https://github.com/stepbystepexe/SocialFish/issues">
+    <img src="https://img.shields.io/badge/Issues-1-yellowgreen.svg">
+  </a>
+  <a href="https://github.com/stepbystepexe/SocialFish/security/advisories">
+    <img src="https://img.shields.io/badge/Security-Patch-ff69b4.svg">
+  </a>
+  <a href="https://opensource.org">
+    <img src="https://img.shields.io/badge/Open%20Source-●-yellow.svg">
+  </a>
+</p>
+
+<h4 align="center">Tampilan</h4>
+<p align="center">
+  <img src="https://github.com/stepbystepexe/SocialFish/blob/master/Skrinsut.png" width="300">
+</a></p>
+
+<h5>
+<p align="center">
+  Made with ❤️ by <a href="https://github.com/stepbystepexe">Nedi Senja</a>
+</h5>
+</p>
+
+<p align="center">
+ <img src="https://img.shields.io/twitter/url?url=https%3A%2F%2Fgithub.com%2Stepbystepexe%2FSocialFish" alt="Twitter"> <br>
+</p>
+
+### Informasi:
+```text
 Nama        : SocialFish
-Versi       : 4.3 (Update: 10 Agustus 2020, 3:30 AM)
+Versi       : 1.1 (Update: 10 Agustus 2020, 3:30 AM)
 Tanggal     : 28 Februari 2019
 Mod         : Nedi Senja
 Tujuan      : Mencuri akun menggunakan metode
@@ -21,21 +62,27 @@ NB          : Manusia gax ada yang sempurna
 
 [ Gunakan tool ini dengan bijak ]
 ```
-#### Daftar Fitur:
+
+### Menu:
 + serveo.net
 + ngrok.io
-#### Cara Menginstall:
-```
+
+### Installisasi:
+```text
 git clone https://github.com/stepbystepexe/SocialFish
 cd SocialFish
 ls
-bash socialfish.sh
+chmod +x
+./socialfish.sh
 ```
-#### Kontak:
-+ Email d_q16x@outlook.co.id
-+ WhatsApp https://tinyurl.com/wel4alo
-#### Paypal:
-+ Onclick https://bit.ly/3dcEQcN
-#### LiberaPay:
-<noscript><a href="https://liberapay.com/stepbystep/donate"><img alt="Donate using Liberapay" src="https://liberapay.com/assets/widgets/donate.svg"></a></noscript>
->**Created by Nedi Senja**
+### Kontak:
+
+<h5> <a href="http://d_q16x@outlook.co.id">Email: d_q16x@outlook.co.id</a>
+</h5>
+<h5> <a href="https://tinyurl.com/wel4alo">WhatsApp: https://tinyurl.com/wel4alo</a>
+</h5>
+
+### LiberaPay:
+<noscript><a href="https://liberapay.com/stepbystepexe/donate"><img alt="Donate using Liberapay" src="https://liberapay.com/assets/widgets/donate.svg"></a></noscript>
+
+>**Created by Stepbystep**
