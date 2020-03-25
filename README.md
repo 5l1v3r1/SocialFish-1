@@ -63,7 +63,7 @@ NB          : Manusia gax ada yang sempurna
 [ Gunakan tool ini dengan bijak ]
 ```
 
-### Menu:
+### Fitur:
 + serveo.net
 + ngrok.io
 
