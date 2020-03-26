@@ -46,8 +46,8 @@
 ### Informasi:
 ```text
 Nama        : SocialFish
-Versi       : 1.1 (Update: 10 Agustus 2020, 3:30 AM)
-Tanggal     : 28 Februari 2019
+Versi       : 1.1 (Update: 15 Januari 2020, 3:30 AM)
+Tanggal     : 25 Februari 2019
 Mod         : Nedi Senja
 Tujuan      : Mencuri akun menggunakan metode
               Modern Phising SocialFish.
